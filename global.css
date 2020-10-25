@@ -1,0 +1,13 @@
+/* 清除浮动 */
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+[class*=col] {
+  margin-bottom: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=global.css.map */
